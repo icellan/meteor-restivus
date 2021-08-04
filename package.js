@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'vatfree:restivus',
+  name: 'icellan:restivus',
   summary: 'Create authenticated REST APIs in Meteor via HTTP/HTTPS. Setup CRUD endpoints for Collections.',
   version: '1.1.0',
-  git: 'https://github.com/vatfree/meteor-restivus.git'
+  git: 'https://github.com/icellan/meteor-restivus.git'
 });
 
 Package.onUse(function (api) {
@@ -34,7 +34,7 @@ Package.onTest(function (api) {
   api.use('accounts-password');
   api.use('practicalmeteor:munit');
   api.use('test-helpers');
-  api.use('vatfree:restivus');
+  api.use('icellan:restivus');
   api.use('alanning:roles');
 
   api.addFiles([

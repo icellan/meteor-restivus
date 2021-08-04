@@ -387,8 +387,8 @@ _Note: API-breaking changes are in **bold**_
 - Initial release
 
 
-[v1.1.0]:  https://github.com/vatfree/meteor-restivus/compare/v1.0.0...v1.1.0  "Version 1.1.0"
-[v1.0.0]:  https://github.com/vatfree/meteor-restivus/compare/v0.8.12...v1.0.0  "Version 1.0.0"
+[v1.1.0]:  https://github.com/icellan/meteor-restivus/compare/v1.0.0...v1.1.0  "Version 1.1.0"
+[v1.0.0]:  https://github.com/icellan/meteor-restivus/compare/v0.8.12...v1.0.0  "Version 1.0.0"
 [v0.8.12]:  https://github.com/kahmali/meteor-restivus/compare/v0.8.11...v0.8.12  "Version 0.8.12"
 [v0.8.11]:  https://github.com/kahmali/meteor-restivus/compare/v0.8.10...v0.8.11  "Version 0.8.11"
 [v0.8.10]:  https://github.com/kahmali/meteor-restivus/compare/v0.8.9...v0.8.10   "Version 0.8.10"

@@ -1,4 +1,4 @@
-# Restivus [v1.1.0](https://github.com/vatfree/meteor-restivus/blob/devel/CHANGELOG.md#change-log)
+# Restivus [v1.1.0](https://github.com/icellan/meteor-restivus/blob/devel/CHANGELOG.md#change-log)
 
 #### REST APIs for the Best of Us!
 
@@ -73,7 +73,7 @@ and is built on top of [Simple JSON Routes][json-routes] to provide:
 
 You can install Restivus using Meteor's package manager:
 ```bash
-> meteor add vatfree:restivus
+> meteor add icellan:restivus
 ```
 
 ## Quick Start
@@ -976,7 +976,7 @@ All responses contain the following defaults, which will be overridden with any 
     - This is a [CORS-compliant header][cors] that allows requests to be made to the API from any
       domain. Without this, requests from within the browser would only be allowed from the same
       domain the API is hosted on, which is typically not the intended behavior. This can be
-      [disabled by default](https://github.com/vatfree/meteor-restivus#enablecors), or also by
+      [disabled by default](https://github.com/icellan/meteor-restivus#enablecors), or also by
       returning a header of the same name with a domain specified (usually the domain the API is
       being hosted on).
 
@@ -1121,17 +1121,17 @@ curl -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" http
 
 To update Restivus to the latest version:
 ```bash
-> meteor update vatfree:restivus
+> meteor update icellan:restivus
 ```
 
 Or to update Restivus to a specific version:
 ```bash
-> meteor add vatfree:restivus@=<version_number>
+> meteor add icellan:restivus@=<version_number>
 ```
 
 For example, to update restivus to v0.7.0:
 ```bash
-> meteor add vatfree:restivus@=0.7.0
+> meteor add icellan:restivus@=0.7.0
 ```
 
 Please check the [change log][restivus-change-log] before updating, for more information about the
@@ -1192,7 +1192,7 @@ Some other notable changes are:
 - More accurate response codes returned in API
 
 For a complete list of changes, check out the [change log]
-(https://github.com/vatfree/meteor-restivus/blob/devel/CHANGELOG.md#v080---2015-07-06).
+(https://github.com/icellan/meteor-restivus/blob/devel/CHANGELOG.md#v080---2015-07-06).
 
 ## Upgrading to 1.1.0
 
@@ -1238,12 +1238,12 @@ with that comes a few API-breaking changes:
 ## Change Log
 
 A detailed list of the changes between versions can be found in the [change log]
-(https://github.com/vatfree/meteor-restivus/blob/master/CHANGELOG.md).
+(https://github.com/icellan/meteor-restivus/blob/master/CHANGELOG.md).
 
 ## Contributing
 
 Contributions to Restivus are welcome and appreciated! If you're interested in contributing, please
-check out [the guidelines](https://github.com/vatfree/meteor-restivus/blob/master/CONTRIBUTING.md)
+check out [the guidelines](https://github.com/icellan/meteor-restivus/blob/master/CONTRIBUTING.md)
 before getting started.
 
 ## Thanks
@@ -1260,7 +1260,7 @@ Also, thanks to the following projects, which RestStop2 was inspired by:
 
 ## License
 
-MIT License. See [LICENSE](https://github.com/vatfree/meteor-restivus/blob/master/LICENSE) for
+MIT License. See [LICENSE](https://github.com/icellan/meteor-restivus/blob/master/LICENSE) for
 details.
 
 [alanning-roles]:       https://github.com/alanning/meteor-roles                                  "Meteor Roles Package"
@@ -1271,7 +1271,7 @@ details.
 [json-routes]:          https://github.com/stubailo/meteor-rest/tree/master/packages/json-routes  "Simple JSON Routes"
 [node-request]:         https://nodejs.org/api/http.html#http_http_incomingmessage                 "Node Request Object Docs"
 [node-response]:        https://nodejs.org/api/http.html#http_class_http_serverresponse            "Node Response Object Docs"
-[restivus-change-log]:  https://github.com/vatfree/meteor-restivus/blob/master/CHANGELOG.md       "Restivus Change Log"
-[restivus-issues]:      https://github.com/vatfree/meteor-restivus/issues                         "Restivus Issues"
+[restivus-change-log]:  https://github.com/icellan/meteor-restivus/blob/master/CHANGELOG.md       "Restivus Change Log"
+[restivus-issues]:      https://github.com/icellan/meteor-restivus/issues                         "Restivus Issues"
 [reststop2]:            https://github.com/Differential/reststop2                                 "RestStop2"
 [reststop2-docs]:       http://github.differential.com/reststop2/                                 "RestStop2 Docs"
