@@ -7,13 +7,13 @@ Package.describe({
 
 Package.onUse(function (api) {
   // Meteor dependencies
-  api.use('ecmascript');
-  api.use('check');
-  api.use('underscore');
-  api.use('accounts-password');
-  api.use('simple:json-routes');
-  api.use('leaonline:oauth2-server');
-  api.use('alanning:roles', 'server', {weak: true});
+  api.use('ecmascript@0.16.7');
+  api.use('check@1.3.2');
+  api.use('underscore@1.0.13');
+  api.use('accounts-password@2.2.0');
+  api.use('simple:json-routes@2.1.0');
+  api.use('leaonline:oauth2-server@4.2.1');
+  api.use('alanning:roles@3.4.0', 'server', {weak: true});
 
   api.addFiles([
     'lib/auth.js',
