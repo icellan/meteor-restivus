@@ -1,7 +1,7 @@
 Package.describe({
   name: 'icellan:restivus',
   summary: 'Create authenticated REST APIs in Meteor via HTTP/HTTPS. Setup CRUD endpoints for Collections.',
-  version: '2.1.0',
+  version: '2.1.1',
   git: 'https://github.com/icellan/meteor-restivus.git'
 });
 
@@ -13,7 +13,7 @@ Package.onUse(function (api) {
   api.use('accounts-password@2.2.0');
   api.use('simple:json-routes@2.1.0');
   api.use('leaonline:oauth2-server@4.2.1');
-  api.use('alanning:roles@3.4.0', 'server', {weak: true});
+  api.use('alanning:roles@1.3.0', 'server', {weak: true});
 
   api.addFiles([
     'lib/auth.js',
