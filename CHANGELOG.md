@@ -1,5 +1,15 @@
 # Change Log
 
+## [v2.1.0] - 2023-11-09
+
+#### Added
+Added support for Bearer token authentication, when using [leaonline:oauth2-server](https://github.com/leaonline/oauth2-server) 
+
+## [v2.0.0] - 2022-01-18
+
+#### Added
+Added support for async API routes
+
 ## [v1.1.0] - 2020-12-17
 
 #### Added
