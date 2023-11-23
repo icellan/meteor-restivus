@@ -1,7 +1,7 @@
 Package.describe({
   name: 'icellan:restivus',
   summary: 'Create authenticated REST APIs in Meteor via HTTP/HTTPS. Setup CRUD endpoints for Collections.',
-  version: '2.1.1',
+  version: '2.1.2',
   git: 'https://github.com/icellan/meteor-restivus.git'
 });
 
