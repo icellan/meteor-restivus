@@ -1,11 +1,11 @@
 Package.describe({
   name: 'icellan:restivus',
   summary: 'Create authenticated REST APIs in Meteor via HTTP/HTTPS. Setup CRUD endpoints for Collections.',
-  version: '2.1.3',
-  git: 'https://github.com/icellan/meteor-restivus.git'
+  version: '2.1.4',
+  git: 'https://github.com/icellan/meteor-restivus.git',
 });
 
-Package.onUse(function (api) {
+Package.onUse((api) => {
   // Meteor dependencies
   api.use('ecmascript@0.16.7');
   api.use('check@1.3.2');
@@ -13,17 +13,21 @@ Package.onUse(function (api) {
   api.use('accounts-password@2.2.0');
   api.use('simple:json-routes@2.1.0');
   api.use('leaonline:oauth2-server@4.2.1');
-  api.use('alanning:roles@1.3.0', 'server', {weak: true});
+  api.use('alanning:roles@1.3.0', 'server', { weak: true });
 
   api.addFiles([
     'lib/auth.js',
     'lib/route.js',
-    'lib/restivus.js'
+    'lib/restivus.js',
   ], 'server');
   api.mainModule('index.js', 'server');
 });
 
-Package.onTest(function (api) {
+Npm.depends({
+  'url-parse': '1.5.10',
+});
+
+Package.onTest((api) => {
   // Meteor dependencies
   api.use('ecmascript');
   api.use('mongo');
@@ -37,9 +41,9 @@ Package.onTest(function (api) {
   api.use('alanning:roles');
 
   api.addFiles([
-      'test/api_tests.js',
-      'test/authentication_tests.js',
-      'test/route_unit_tests.js',
-      'test/user_hook_tests.js'
+    'test/api_tests.js',
+    'test/authentication_tests.js',
+    'test/route_unit_tests.js',
+    'test/user_hook_tests.js',
   ], 'server');
 });
